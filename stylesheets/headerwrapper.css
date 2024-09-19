@@ -1,0 +1,21 @@
+
+.headerwrapper{
+	display:grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-rows: 2;
+    justify-items: center;
+}
+.timezone{
+	grid-column: span 1;
+}
+#title {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+    font-size: 32px;
+}
+#msoffice {
+	grid-row: 2/3;
+	grid-column: 1/2;
+}

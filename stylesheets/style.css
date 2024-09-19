@@ -1,0 +1,31 @@
+@import url("mainwrapper.css");
+@import url("headerwrapper.css");
+
+* {
+  font-family: "Signika", sans-serif;
+  font-size: 1.25rem;
+}
+.bodywrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  background-color: lightgray;
+  /* border: 2px solid black; */
+}
+.headerwrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-content: center;
+  background-color: lightsalmon;
+  border-radius: 10px;
+}
+a:link {
+  color: black;
+}
+a:visited {
+  color: darkolivegreen;
+}
+a:hover {
+  color: cornflowerblue;
+}

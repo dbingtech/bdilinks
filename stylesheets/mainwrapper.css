@@ -1,0 +1,21 @@
+.linkgrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  /* justify-items: stretch; */
+  justify-content: center;
+  align-items: center;
+  /* border: 5px solid #80cbc4; */
+  /* background-color: #80cbc4; */
+
+  gap: 5px;
+}
+/*---Row 1---*/
+.item {
+  /* background-color:#554846; */
+  text-align: center;
+}
+.item a {
+  color: rgb(36, 33, 33);
+  text-decoration: none;
+}
