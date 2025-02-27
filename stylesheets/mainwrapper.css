@@ -1,17 +1,17 @@
 .linkgrid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   /* justify-items: stretch; */
   justify-content: center;
   align-items: center;
   /* border: 5px solid #80cbc4; */
   /* background-color: #80cbc4; */
-
-  gap: 5px;
+  gap: 1em;
 }
 /*---Row 1---*/
 .item {
+  padding:.5em;
   /* background-color:#554846; */
   text-align: center;
 }
