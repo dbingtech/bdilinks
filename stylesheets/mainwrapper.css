@@ -1,7 +1,18 @@
+.linkgrid2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  /* justify-items: stretch; */
+  justify-content: center;
+  align-items: center;
+  /* border: 5px solid #80cbc4; */
+  /* background-color: #80cbc4; */
+  gap: 1em;
+}
 .linkgrid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   /* justify-items: stretch; */
   justify-content: center;
   align-items: center;
